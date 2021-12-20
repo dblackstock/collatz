@@ -10,6 +10,12 @@ namespace collatz
 			value = startNumber;
 		}
 
+		public Number(int startNumber, int calcStoppingTime) // use to record pre-calcuated numbers
+		{
+			value = startNumber;
+			stoppingTime = calcStoppingTime;
+		}
+
 		public int getValue()
 		{
 			return this.value;

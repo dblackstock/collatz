@@ -4,24 +4,44 @@ namespace collatz
 {
 	class Program
 	{
+		private Number numberWithLongestStoppingTime = new Number(0, 0);
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
-			Number startNumber = new Number(5);
+			var watch = new System.Diagnostics.Stopwatch();
+			watch.Start();
+			var prog = new Program();
+			Console.WriteLine("Welcome to Collatz Conjecture checker!");
+			Console.WriteLine("This will check every number from 1 to 100,000,000");
 
-			while (startNumber.getValue() > 1)
+			for (int i = 2; i <= 100000000; i++)
 			{
-				if (startNumber.getValue() % 2 == 0)
+				Number startNumber = new Number(i);
+				CheckNumber(startNumber);
+				if (startNumber.getStoppingTime() > prog.numberWithLongestStoppingTime.getStoppingTime())
 				{
-					startNumber.processEven();
+					prog.numberWithLongestStoppingTime = new Number(i, startNumber.getStoppingTime());
+				}
+			}
+			watch.Stop();
+			Console.WriteLine($"The number with the longest stopping time is {prog.numberWithLongestStoppingTime.getValue()}");
+			Console.WriteLine($"The longest stopping time is {prog.numberWithLongestStoppingTime.getStoppingTime()}");
+			Console.WriteLine($"Processing time was {watch.ElapsedMilliseconds} ms");
+
+		}
+
+		static void CheckNumber(Number numberToCheck)
+		{
+			while (numberToCheck.getValue() > 1)
+			{
+				if (numberToCheck.getValue() % 2 == 0)
+				{
+					numberToCheck.processEven();
 				}
 				else
 				{
-					startNumber.processOdd();
+					numberToCheck.processOdd();
 				}
 			}
-			Console.WriteLine(startNumber.getValue());
-			Console.WriteLine($"The stopping time is {startNumber.getStoppingTime()}");
 		}
 	}
 }
