@@ -34,8 +34,8 @@ namespace collatz
 
 		public void processOdd()
 		{
-			this.value = 3 * this.value + 1;
-			this.stoppingTime++;
+			this.value = (3 * this.value + 1) / 2;
+			this.stoppingTime = this.stoppingTime + 2;
 		}
 	}
 }
