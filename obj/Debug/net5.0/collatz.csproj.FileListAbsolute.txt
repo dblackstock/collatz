@@ -1,0 +1,16 @@
+/home/daveyb/code/collatz/bin/Debug/net5.0/collatz
+/home/daveyb/code/collatz/bin/Debug/net5.0/collatz.deps.json
+/home/daveyb/code/collatz/bin/Debug/net5.0/collatz.runtimeconfig.json
+/home/daveyb/code/collatz/bin/Debug/net5.0/collatz.runtimeconfig.dev.json
+/home/daveyb/code/collatz/bin/Debug/net5.0/collatz.dll
+/home/daveyb/code/collatz/bin/Debug/net5.0/ref/collatz.dll
+/home/daveyb/code/collatz/bin/Debug/net5.0/collatz.pdb
+/home/daveyb/code/collatz/obj/Debug/net5.0/collatz.csprojAssemblyReference.cache
+/home/daveyb/code/collatz/obj/Debug/net5.0/collatz.GeneratedMSBuildEditorConfig.editorconfig
+/home/daveyb/code/collatz/obj/Debug/net5.0/collatz.AssemblyInfoInputs.cache
+/home/daveyb/code/collatz/obj/Debug/net5.0/collatz.AssemblyInfo.cs
+/home/daveyb/code/collatz/obj/Debug/net5.0/collatz.csproj.CoreCompileInputs.cache
+/home/daveyb/code/collatz/obj/Debug/net5.0/collatz.dll
+/home/daveyb/code/collatz/obj/Debug/net5.0/ref/collatz.dll
+/home/daveyb/code/collatz/obj/Debug/net5.0/collatz.pdb
+/home/daveyb/code/collatz/obj/Debug/net5.0/collatz.genruntimeconfig.cache
