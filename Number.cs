@@ -2,21 +2,21 @@ namespace collatz
 {
 	class Number
 	{
-		private int value;
+		private long value;
 		private int stoppingTime = 0;
 
-		public Number(int startNumber)
+		public Number(long startNumber)
 		{
 			value = startNumber;
 		}
 
-		public Number(int startNumber, int calcStoppingTime) // use to record pre-calcuated numbers
+		public Number(long startNumber, int calcStoppingTime) // use to record pre-calcuated numbers
 		{
 			value = startNumber;
 			stoppingTime = calcStoppingTime;
 		}
 
-		public int getValue()
+		public long getValue()
 		{
 			return this.value;
 		}

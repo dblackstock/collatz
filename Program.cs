@@ -13,7 +13,7 @@ namespace collatz
 			Console.WriteLine("Welcome to Collatz Conjecture checker!");
 			Console.WriteLine("This will check every number from 1 to 100,000,000");
 
-			for (int i = 2; i <= 100000000; i++)
+			for (long i = 1; i <= 100000000; i++)
 			{
 				Number startNumber = new Number(i);
 				CheckNumber(startNumber);
