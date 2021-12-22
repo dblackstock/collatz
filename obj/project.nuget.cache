@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rMd1kJRnwYfri0hnwTSLqGvfsJ3insNw+vwAo8eDViHxDgjPKb1J8md6V3icTUFy0uARXz2r4WSiHzZNitNuJw==",
+  "dgSpecHash": "BM6STSwbgbh7k9c18ZBiFPytCYGbB6dJzxB6pMu/xfmkM6GcvpTXaCdcn8WhzO0PiDbeFSbKv+aVSeYHJezA5g==",
   "success": true,
   "projectFilePath": "/home/daveyb/code/collatz/collatz.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/daveyb/.nuget/packages/microsoft.netcore.app.runtime.linux-arm64/5.0.5/microsoft.netcore.app.runtime.linux-arm64.5.0.5.nupkg.sha512",
+    "/home/daveyb/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-arm64/5.0.5/microsoft.aspnetcore.app.runtime.linux-arm64.5.0.5.nupkg.sha512",
+    "/home/daveyb/.nuget/packages/microsoft.netcore.app.host.linux-arm64/5.0.5/microsoft.netcore.app.host.linux-arm64.5.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

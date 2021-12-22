@@ -1,0 +1,5 @@
+/home/daveyb/code/collatz/bin/Release/net5.0/publish/collatz
+/home/daveyb/code/collatz/bin/Release/net5.0/publish/collatz.dll
+/home/daveyb/code/collatz/bin/Release/net5.0/publish/collatz.deps.json
+/home/daveyb/code/collatz/bin/Release/net5.0/publish/collatz.runtimeconfig.json
+/home/daveyb/code/collatz/bin/Release/net5.0/publish/collatz.pdb
